@@ -1,0 +1,44 @@
+2025-04-05 22:34:04,482 - root - INFO - Logger Version: 2.0.0
+2025-04-05 22:34:04,482 - main - INFO - input_args: dict_items([('layout', './layouts/q1b_tinyCorners.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x105b9c5f0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x105b9e660>, <RandomGhost.RandomGhost object at 0x105c039b0>, <RandomGhost.RandomGhost object at 0x105c039e0>, <RandomGhost.RandomGhost object at 0x105c03ad0>]), ('display', <textDisplay.NullGraphics object at 0x105c03aa0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_tinyCorners')])
+2025-04-05 22:34:04,482 - root - INFO - runGames
+2025-04-05 22:34:04,482 - root - INFO - 0/1
+2025-04-05 22:34:04,482 - root - INFO - newGame
+2025-04-05 22:34:04,482 - root - INFO - layout: %%%%%%%%
+%.    .%
+%   P  %
+% %%%% %
+% %    %
+% % %%%%
+%.%   .%
+%%%%%%%%
+2025-04-05 22:34:04,482 - root - INFO - runGame
+2025-04-05 22:34:04,482 - root - INFO - #agents:1
+2025-04-05 22:34:04,482 - root - INFO - #pacman:1
+2025-04-05 22:34:04,482 - root - INFO - #ghosts:0
+2025-04-05 22:34:04,482 - getStartState - INFO - I: q1b_problem,
+2025-04-05 22:34:04,482 - BFS - INFO - I: q1b_problem,
+2025-04-05 22:34:04,482 - BFS - INFO - O: None
+2025-04-05 22:34:04,482 - getStartState - INFO - O: None
+2025-04-05 22:34:04,482 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x105c03980>,
+2025-04-05 22:34:04,482 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,482 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,482 - getSuccessors - INFO - O: {'West': [3, 5], 'East': [5, 5], 'North': [4, 6]}
+2025-04-05 22:34:04,482 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x105c03980>,
+2025-04-05 22:34:04,482 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,482 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,482 - getSuccessors - INFO - O: {'West': [4, 5], 'East': [6, 5], 'North': [5, 6]}
+2025-04-05 22:34:04,482 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x105c03980>,
+2025-04-05 22:34:04,482 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,482 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,482 - getSuccessors - INFO - O: {'West': [5, 5], 'North': [6, 6], 'South': [6, 4]}
+2025-04-05 22:34:04,482 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x105c03980>,
+2025-04-05 22:34:04,483 - isGoalState - INFO - O: True
+2025-04-05 22:34:04,483 - root - INFO - Out of actions
+2025-04-05 22:34:04,483 - root - INFO - Remaining Food: 3
+2025-04-05 22:34:04,483 - root - INFO - Remaining Food: 3
+2025-04-05 22:34:04,483 - root - INFO - moveHistory: [[(0, 'East'), (0, 'East'), (0, 'North')]]
+2025-04-05 22:34:04,483 - root - INFO - pathLength: [3]
+2025-04-05 22:34:04,483 - root - INFO - Average Score: 7.00
+2025-04-05 22:34:04,483 - root - INFO - Scores: 7.0
+2025-04-05 22:34:04,483 - root - INFO - Win Rate:      0/1 (0.00)
+2025-04-05 22:34:04,483 - root - INFO - Record:       Draw

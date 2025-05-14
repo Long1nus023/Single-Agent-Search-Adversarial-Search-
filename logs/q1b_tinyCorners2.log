@@ -1,0 +1,33 @@
+2025-04-05 22:34:04,741 - root - INFO - Logger Version: 2.0.0
+2025-04-05 22:34:04,741 - main - INFO - input_args: dict_items([('layout', './layouts/q1b_tinyCorners2.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x10149c7a0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x10149e780>, <RandomGhost.RandomGhost object at 0x101503aa0>, <RandomGhost.RandomGhost object at 0x101503b90>, <RandomGhost.RandomGhost object at 0x101503bc0>]), ('display', <textDisplay.NullGraphics object at 0x101503a70>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_tinyCorners2')])
+2025-04-05 22:34:04,741 - root - INFO - runGames
+2025-04-05 22:34:04,741 - root - INFO - 0/1
+2025-04-05 22:34:04,741 - root - INFO - newGame
+2025-04-05 22:34:04,741 - root - INFO - layout: %%%%%
+%.P.%
+%%% %
+%. .%
+%%%%%
+2025-04-05 22:34:04,741 - root - INFO - runGame
+2025-04-05 22:34:04,741 - root - INFO - #agents:1
+2025-04-05 22:34:04,741 - root - INFO - #pacman:1
+2025-04-05 22:34:04,742 - root - INFO - #ghosts:0
+2025-04-05 22:34:04,742 - getStartState - INFO - I: q1b_problem,
+2025-04-05 22:34:04,742 - BFS - INFO - I: q1b_problem,
+2025-04-05 22:34:04,742 - BFS - INFO - O: None
+2025-04-05 22:34:04,742 - getStartState - INFO - O: None
+2025-04-05 22:34:04,742 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x101530aa0>,
+2025-04-05 22:34:04,742 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,742 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,742 - getSuccessors - INFO - O: {'West': [1, 3], 'East': [3, 3]}
+2025-04-05 22:34:04,742 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x101530aa0>,
+2025-04-05 22:34:04,742 - isGoalState - INFO - O: True
+2025-04-05 22:34:04,742 - root - INFO - Out of actions
+2025-04-05 22:34:04,742 - root - INFO - Remaining Food: 3
+2025-04-05 22:34:04,742 - root - INFO - Remaining Food: 3
+2025-04-05 22:34:04,742 - root - INFO - moveHistory: [[(0, 'East')]]
+2025-04-05 22:34:04,742 - root - INFO - pathLength: [1]
+2025-04-05 22:34:04,742 - root - INFO - Average Score: 9.00
+2025-04-05 22:34:04,742 - root - INFO - Scores: 9.0
+2025-04-05 22:34:04,742 - root - INFO - Win Rate:      0/1 (0.00)
+2025-04-05 22:34:04,742 - root - INFO - Record:       Draw

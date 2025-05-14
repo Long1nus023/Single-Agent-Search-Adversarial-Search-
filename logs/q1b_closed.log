@@ -1,0 +1,247 @@
+2025-04-05 22:34:04,644 - root - INFO - Logger Version: 2.0.0
+2025-04-05 22:34:04,644 - main - INFO - input_args: dict_items([('layout', './layouts/q1b_closed.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x1015b7560>), ('ghosts', [<RandomGhost.RandomGhost object at 0x10164a7b0>, <RandomGhost.RandomGhost object at 0x1016afb00>, <RandomGhost.RandomGhost object at 0x1016afbf0>, <RandomGhost.RandomGhost object at 0x1016afc20>]), ('display', <textDisplay.NullGraphics object at 0x1016afad0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_closed')])
+2025-04-05 22:34:04,644 - root - INFO - runGames
+2025-04-05 22:34:04,644 - root - INFO - 0/1
+2025-04-05 22:34:04,644 - root - INFO - newGame
+2025-04-05 22:34:04,644 - root - INFO - layout: %%%%%%%%%%%%%%%%%%%%
+%.%P          %    %
+%%%% %% %% %% %% % %
+%                % %
+%%%%%%%%%%%%%%%%%% %
+%.%.               %
+%%%%%%%%%%%%%%%%%%%%
+2025-04-05 22:34:04,645 - root - INFO - runGame
+2025-04-05 22:34:04,645 - root - INFO - #agents:1
+2025-04-05 22:34:04,645 - root - INFO - #pacman:1
+2025-04-05 22:34:04,645 - root - INFO - #ghosts:0
+2025-04-05 22:34:04,645 - getStartState - INFO - I: q1b_problem,
+2025-04-05 22:34:04,645 - BFS - INFO - I: q1b_problem,
+2025-04-05 22:34:04,645 - BFS - INFO - O: None
+2025-04-05 22:34:04,645 - getStartState - INFO - O: None
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'East': [4, 5]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [3, 5], 'East': [5, 5], 'South': [4, 4]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'North': [4, 5], 'South': [4, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [3, 3], 'East': [5, 3], 'North': [4, 4]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [2, 3], 'East': [4, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [1, 3], 'East': [3, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [4, 3], 'East': [6, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [4, 5], 'East': [6, 5]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'East': [2, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [5, 3], 'East': [7, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [5, 5], 'East': [7, 5]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [6, 3], 'East': [8, 3], 'North': [7, 4]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [6, 5], 'East': [8, 5], 'South': [7, 4]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'North': [7, 5], 'South': [7, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [7, 3], 'East': [9, 3]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,645 - getSuccessors - INFO - O: {'West': [7, 5], 'East': [9, 5]}
+2025-04-05 22:34:04,645 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,645 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,645 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [8, 3], 'East': [10, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [8, 5], 'East': [10, 5]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [9, 3], 'East': [11, 3], 'North': [10, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [9, 5], 'East': [11, 5], 'South': [10, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [10, 5], 'South': [10, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [10, 3], 'East': [12, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [10, 5], 'East': [12, 5]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [11, 3], 'East': [13, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [11, 5], 'East': [13, 5]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [12, 3], 'East': [14, 3], 'North': [13, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [12, 5], 'South': [13, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [13, 5], 'South': [13, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [13, 3], 'East': [15, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [14, 3], 'East': [16, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [15, 3], 'North': [16, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [16, 5], 'South': [16, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [15, 5], 'East': [17, 5], 'South': [16, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'East': [16, 5]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [16, 5], 'East': [18, 5]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [17, 5], 'South': [18, 4]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [18, 5], 'South': [18, 3]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [18, 4], 'South': [18, 2]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'North': [18, 3], 'South': [18, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [17, 1], 'North': [18, 2]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [16, 1], 'East': [18, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [15, 1], 'East': [17, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [14, 1], 'East': [16, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [13, 1], 'East': [15, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [12, 1], 'East': [14, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [11, 1], 'East': [13, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [10, 1], 'East': [12, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [9, 1], 'East': [11, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [8, 1], 'East': [10, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [7, 1], 'East': [9, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [6, 1], 'East': [8, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [5, 1], 'East': [7, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [4, 1], 'East': [6, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: False
+2025-04-05 22:34:04,646 - getSuccessors - INFO - I: q1b_problem,q1b_problem,
+2025-04-05 22:34:04,646 - getSuccessors - INFO - O: {'West': [3, 1], 'East': [5, 1]}
+2025-04-05 22:34:04,646 - isGoalState - INFO - I: q1b_problem,<q1b_solver.AStarData object at 0x1016af470>,
+2025-04-05 22:34:04,646 - isGoalState - INFO - O: True
+2025-04-05 22:34:04,649 - root - INFO - Out of actions
+2025-04-05 22:34:04,649 - root - INFO - Remaining Food: 2
+2025-04-05 22:34:04,649 - root - INFO - Remaining Food: 2
+2025-04-05 22:34:04,649 - root - INFO - moveHistory: [[(0, 'East'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West')]]
+2025-04-05 22:34:04,649 - root - INFO - pathLength: [38]
+2025-04-05 22:34:04,649 - root - INFO - Average Score: -28.00
+2025-04-05 22:34:04,649 - root - INFO - Scores: -28.0
+2025-04-05 22:34:04,649 - root - INFO - Win Rate:      0/1 (0.00)
+2025-04-05 22:34:04,649 - root - INFO - Record:       Draw

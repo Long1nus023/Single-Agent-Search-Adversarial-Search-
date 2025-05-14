@@ -1,0 +1,961 @@
+2025-04-05 22:34:10,556 - root - INFO - Logger Version: 2.0.0
+2025-04-05 22:34:10,556 - main - INFO - input_args: dict_items([('layout', './layouts/q2_minimaxClassic.lay'), ('pacman', <Q2_Agent.Q2_Agent object at 0x100e0c290>), ('ghosts', [<RandomGhost.RandomGhost object at 0x100e76c30>, <RandomGhost.RandomGhost object at 0x100e76e10>, <RandomGhost.RandomGhost object at 0x100e76ed0>, <RandomGhost.RandomGhost object at 0x100e76f00>]), ('display', <textDisplay.NullGraphics object at 0x100e76de0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 30), ('outfile', 'q2_minimaxClassic')])
+2025-04-05 22:34:10,556 - root - INFO - runGames
+2025-04-05 22:34:10,556 - root - INFO - 0/1
+2025-04-05 22:34:10,558 - root - INFO - newGame
+2025-04-05 22:34:10,558 - root - INFO - layout: %%%%%%%%%
+%.P    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+2025-04-05 22:34:10,558 - root - INFO - runGame
+2025-04-05 22:34:10,558 - root - INFO - #agents:3
+2025-04-05 22:34:10,558 - root - INFO - #pacman:1
+2025-04-05 22:34:10,558 - root - INFO - #ghosts:2
+2025-04-05 22:34:10,558 - root - INFO - MinimaxAgent
+2025-04-05 22:34:10,559 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: 0
+,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <   G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <   G%
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,0,3,3,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.    G %
+%G%^% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,1,3,2,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,2,3,1,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,0,3,0,
+2025-04-05 22:34:10,559 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,
+2025-04-05 22:34:10,559 - evaluate - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.  < G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,1,3,2,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G  < G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,2,3,1,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G  <G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,0,3,0,
+2025-04-05 22:34:10,559 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G  <G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,559 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.>   G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,1,3,2,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G>   G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,2,3,1,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G>  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,0,3,0,
+2025-04-05 22:34:10,559 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G>  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,559 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,1,3,2,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G <  G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,2,3,1,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,8.0,inf,0,3,0,
+2025-04-05 22:34:10,559 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,559 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <   G%
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: -1
+,-inf,8.0,2,3,4,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: -1
+,-inf,8.0,0,3,3,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.    G %
+% %^% %%%
+% G   %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,1,3,2,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.    G %
+% %^% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,2,3,1,
+2025-04-05 22:34:10,559 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.   G  %
+% %^% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,0,3,0,
+2025-04-05 22:34:10,559 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%.   G  %
+% %^% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>     G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: 9
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>     G%
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 9
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 9
+,-inf,inf,0,3,3,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,-inf,inf,1,3,2,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% <   G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-1000000,inf,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<   G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-1000000,inf,2,3,1,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-1000000,inf,0,3,0,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,8.0,inf,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,8.0,inf,2,3,1,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>     G%
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: 9
+,-inf,8.0,2,3,4,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: 9
+,-inf,8.0,0,3,3,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%^%.% %%%
+% G   %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%^%.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,2,3,1,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%    G  %
+%^%.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,-inf,8.0,0,3,0,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%    G  %
+%^%.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: 8
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: 8.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<   G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -1
+,-inf,inf,0,3,3,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-inf,inf,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G <  G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-inf,inf,2,3,1,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-inf,inf,0,3,0,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-2.0,inf,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,-2.0,inf,2,3,1,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<   G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-2.0,inf,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<   G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-2.0,inf,2,3,1,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,-2.0,inf,0,3,0,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: -1
+,-inf,-2.0,2,3,4,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%.<   G %
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: -1
+,-inf,-2.0,0,3,3,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+% %.% %%%
+% G   %%%
+%%%%%%%%%
+Score: -2
+,-inf,-2.0,1,3,2,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+% %.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: -2
+,-inf,-2.0,2,3,1,
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%. < G  %
+% %.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: -2
+,-inf,-2.0,0,3,0,
+2025-04-05 22:34:10,560 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%. < G  %
+% %.% %%%
+%  G  %%%
+%%%%%%%%%
+Score: -2
+,
+2025-04-05 22:34:10,560 - evaluate - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - alpha_beta_search - INFO - O: -2.0
+2025-04-05 22:34:10,560 - getAction - INFO - O: West
+2025-04-05 22:34:10,560 - root - INFO - MinimaxAgent
+2025-04-05 22:34:10,561 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 9
+,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%     G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% <   G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<   G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,0,3,3,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,1,3,2,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G< G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,2,3,1,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,0,3,0,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G<    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,7.0,0,3,0,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,7.0,inf,1,3,2,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,7.0,inf,1,3,2,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,7.0,inf,2,3,1,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: 7.0
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,561 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G    G %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -492
+,
+2025-04-05 22:34:10,561 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,561 - getAction - INFO - O: East
+2025-04-05 22:34:10,561 - root - INFO - MinimaxAgent
+2025-04-05 22:34:10,561 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G < G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G< G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,0,3,3,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G     %
+% %^%G%%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,-inf,inf,1,3,2,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G     %
+% %^%G%%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G <   %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 6
+,10000000,inf,1,3,2,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%  G<   %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 6
+,10000000,inf,2,3,1,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%  G<   %
+% %.% %%%
+%    G%%%
+%%%%%%%%%
+Score: 6
+,10000000,inf,0,3,0,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%  G<   %
+% %.% %%%
+%    G%%%
+%%%%%%%%%
+Score: 6
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: 6.0
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 6.0
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 6.0
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 6.0
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G     %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,10000000,inf,1,3,2,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G     %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: 6
+,10000000,inf,1,3,2,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%  G    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,10000000,inf,2,3,1,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%  G    %
+% %.%G%%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,10000000,0,3,3,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,-inf,10000000,1,3,2,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -493
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - getAction - INFO - O: East
+2025-04-05 22:34:10,562 - root - INFO - MinimaxAgent
+2025-04-05 22:34:10,562 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 516
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: 10000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+% G G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 6
+,-inf,inf,1,3,5,
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - I: Q2_Agent,%%%%%%%%%
+%  GG   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,-inf,inf,2,3,4,
+2025-04-05 22:34:10,562 - evaluate - INFO - I: Q2_Agent,%%%%%%%%%
+%  GG   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: -494
+,
+2025-04-05 22:34:10,562 - evaluate - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - alpha_beta_search - INFO - O: -1000000
+2025-04-05 22:34:10,562 - getAction - INFO - O: South
+2025-04-05 22:34:10,562 - root - INFO - Remaining Food: 0
+2025-04-05 22:34:10,562 - root - INFO - moveHistory: [[(0, 'West'), (1, 'North'), (2, 'West'), (0, 'East'), (1, 'North'), (2, 'West'), (0, 'East'), (1, 'East'), (2, 'West'), (0, 'South')]]
+2025-04-05 22:34:10,562 - root - INFO - pathLength: [10]
+2025-04-05 22:34:10,562 - root - INFO - Average Score: 516.00
+2025-04-05 22:34:10,562 - root - INFO - Scores: 516.0
+2025-04-05 22:34:10,562 - root - INFO - Win Rate:      1/1 (1.00)
+2025-04-05 22:34:10,562 - root - INFO - Record:       Win
